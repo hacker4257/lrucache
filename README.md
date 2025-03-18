@@ -45,14 +45,11 @@ func main() {
 ### New(capacity int) *Cache
 Creates a new LRU cache instance with the specified capacity.
 
-### Get(key interface{}) (interface{}, bool)
+### Get(key string) (any, error)
 Retrieves the value for a given key. Returns false if the key doesn't exist.
 
-### Set(key, value interface{})
+### Set(key string, value any)
 Sets a key-value pair in the cache.
-
-### Remove(key interface{})
-Removes an entry from the cache by its key.
 
 ## Performance
 
