@@ -42,7 +42,7 @@ func main() {
 
 ## API Documentation
 
-### New(capacity int) *Cache
+### NewLruCache(capacity int) *Cache
 Creates a new LRU cache instance with the specified capacity.
 
 ### Get(key string) (any, error)
